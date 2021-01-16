@@ -1,0 +1,110 @@
+/* *******************************************
+****** PROJECT SETUP
+******************************************* */
+
+/* VARIABLES */
+:root {
+  /* MAIN COLORS */
+  --main: black;
+  --secondary: white;
+  --accent: red;
+
+  /* FONTS */
+  --title: serif;
+  --text: aerial;
+}
+
+/* GLOBAL STYLES */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+  /* outline: 2px solid gold; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--title);
+  text-align: center;
+}
+
+body {
+  font-family: var(--text);
+}
+
+  /* *******************************************
+****** PROJECT STYLES
+******************************************* */
+
+h1 {
+  color: var(--accent);
+  
+}
+ 
+body {
+  text-align: center;
+} 
+
+nav {
+  font-size: 2em;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 8px; 
+
+}
+
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+article {
+  width: 60%;
+  border: 2px solid black;
+  padding: 5px;
+}
+
+aside {
+  width: 25%;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+article button {
+  padding: 5px 10px 5px 10px;
+  background-color: red;
+  color: white;
+  border-radius: 3px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+article button:hover {
+  background-color: yellow;
+  color: black;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin: 10px auto;
+}
